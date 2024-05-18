@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "next/core-web-vitals", "plugin:import/errors", "plugin:import/warnings"],
+  "rules": {
+    "react/jsx-key": [1, { "checkFragmentShorthand": true }]
+  },
+  "root": true
+}

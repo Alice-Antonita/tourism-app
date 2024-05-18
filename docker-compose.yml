@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  next-app:
+    container_name: tourism-recommendations
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        ENV_VARIABLE: ${ENV_VARIABLE}
+        NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
+        PORT: ${PORT}
+    restart: always
+    ports:
+      - "${PORT}:${PORT}"
+    volumes:
+      - .env:/.env
+    networks:
+      - tourism_net
+
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+networks:
+  tourism_net:
+    external: true
