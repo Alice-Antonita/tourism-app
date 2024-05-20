@@ -16,7 +16,7 @@ export const Login = () => {
 
   const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
-  };
+  }; 
 
   const handleClickVariant = (message: string, variant: VariantType) => {
     console.log('snack!');

@@ -31,5 +31,9 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "prettier": "^3.2.5",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
