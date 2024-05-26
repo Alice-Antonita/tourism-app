@@ -1,0 +1,1435 @@
+{
+  "Sydney": [
+    {
+      "name": "Sydney Opera House",
+      "type": "Cultural",
+      "description": "An iconic performing arts venue known for its distinctive sail-like design."
+    },
+    {
+      "name": "Sydney Harbour Bridge",
+      "type": "Landmark",
+      "description": "A steel through arch bridge across Sydney Harbour."
+    },
+    {
+      "name": "Bondi Beach",
+      "type": "Beach",
+      "description": "One of Australia's most famous beaches, known for its surf and golden sand."
+    }
+  ],
+  "Melbourne": [
+    {
+      "name": "Federation Square",
+      "type": "Cultural",
+      "description": "A mixed-use development in the heart of Melbourne."
+    },
+    {
+      "name": "Royal Botanic Gardens",
+      "type": "Nature",
+      "description": "Expansive gardens with walking trails and diverse plant collections."
+    },
+    {
+      "name": "Queen Victoria Market",
+      "type": "Market",
+      "description": "A historic landmark and major market offering a variety of goods."
+    }
+  ],
+  "Brisbane": [
+    {
+      "name": "South Bank Parklands",
+      "type": "Park",
+      "description": "A cultural, educational, and recreational precinct."
+    },
+    {
+      "name": "Lone Pine Koala Sanctuary",
+      "type": "Wildlife",
+      "description": "The world's first and largest koala sanctuary."
+    },
+    {
+      "name": "Story Bridge",
+      "type": "Landmark",
+      "description": "A heritage-listed steel cantilever bridge spanning the Brisbane River."
+    }
+  ],
+  "Perth": [
+    {
+      "name": "Kings Park",
+      "type": "Park",
+      "description": "One of the world's largest and most beautiful inner city parks."
+    },
+    {
+      "name": "Cottesloe Beach",
+      "type": "Beach",
+      "description": "A popular beach known for its relaxed vibe and beautiful sunsets."
+    },
+    {
+      "name": "Fremantle Prison",
+      "type": "Historical",
+      "description": "A former prison and UNESCO World Heritage site."
+    }
+  ],
+  "Adelaide": [
+    {
+      "name": "Adelaide Botanic Garden",
+      "type": "Nature",
+      "description": "Historic garden with a wide range of plants from around the world."
+    },
+    {
+      "name": "Adelaide Zoo",
+      "type": "Wildlife",
+      "description": "Australia's second oldest zoo, home to over 2500 animals."
+    },
+    {
+      "name": "Art Gallery of South Australia",
+      "type": "Cultural",
+      "description": "One of Australia's leading art museums."
+    }
+  ],
+  "Hobart": [
+    {
+      "name": "MONA (Museum of Old and New Art)",
+      "type": "Museum",
+      "description": "A large private museum featuring modern and contemporary art."
+    },
+    {
+      "name": "Mount Wellington",
+      "type": "Nature",
+      "description": "A mountain with panoramic views of Hobart and surrounding areas."
+    },
+    {
+      "name": "Salamanca Market",
+      "type": "Market",
+      "description": "A popular outdoor market featuring local produce, crafts, and food."
+    }
+  ],
+  "Darwin": [
+    {
+      "name": "Mindil Beach Sunset Market",
+      "type": "Market",
+      "description": "A bustling market with diverse food stalls and local crafts."
+    },
+    {
+      "name": "Crocosaurus Cove",
+      "type": "Wildlife",
+      "description": "An attraction where visitors can see and interact with crocodiles."
+    },
+    {
+      "name": "Litchfield National Park",
+      "type": "Nature",
+      "description": "A park known for its waterfalls, swimming holes, and termite mounds."
+    }
+  ],
+  "Canberra": [
+    {
+      "name": "Australian War Memorial",
+      "type": "Historical",
+      "description": "A national memorial to members of the armed forces and supporting organizations."
+    },
+    {
+      "name": "National Gallery of Australia",
+      "type": "Museum",
+      "description": "The premier art gallery in Australia with a large collection of works."
+    },
+    {
+      "name": "Parliament House",
+      "type": "Government",
+      "description": "The meeting place of the Parliament of Australia, known for its distinctive architecture."
+    }
+  ],
+  "Gold Coast": [
+    {
+      "name": "Surfers Paradise",
+      "type": "Beach",
+      "description": "A world-renowned beach and entertainment precinct."
+    },
+    {
+      "name": "Sea World",
+      "type": "Theme Park",
+      "description": "A marine mammal park, oceanarium, and theme park."
+    },
+    {
+      "name": "Lamington National Park",
+      "type": "Nature",
+      "description": "A protected area known for its rainforests, birdlife, and hiking trails."
+    }
+  ],
+  "Cairns": [
+    {
+      "name": "Great Barrier Reef",
+      "type": "Nature",
+      "description": "The world's largest coral reef system, renowned for its marine biodiversity."
+    },
+    {
+      "name": "Kuranda Scenic Railway",
+      "type": "Scenic Ride",
+      "description": "A historic rail journey through tropical rainforest."
+    },
+    {
+      "name": "Daintree Rainforest",
+      "type": "Nature",
+      "description": "A tropical rainforest region offering tours, walks, and wildlife experiences."
+    }
+  ],
+  "Newcastle": [
+    {
+      "name": "Nobbys Beach",
+      "type": "Beach",
+      "description": "A popular beach known for its surfing and swimming, with views of Nobbys Lighthouse."
+    },
+    {
+      "name": "Fort Scratchley",
+      "type": "Historical",
+      "description": "A historic site offering tours and views over Newcastle and the Pacific Ocean."
+    },
+    {
+      "name": "Blackbutt Reserve",
+      "type": "Nature",
+      "description": "A nature reserve featuring wildlife exhibits, picnic areas, and walking trails."
+    }
+  ],
+  "Geelong": [
+    {
+      "name": "Geelong Waterfront",
+      "type": "Landmark",
+      "description": "A vibrant waterfront area with restaurants, parks, and a carousel."
+    },
+    {
+      "name": "National Wool Museum",
+      "type": "Museum",
+      "description": "A museum dedicated to the history of wool production in Australia."
+    },
+    {
+      "name": "Eastern Beach",
+      "type": "Beach",
+      "description": "A popular swimming and recreation area with an enclosed sea bath and picnic facilities."
+    }
+  ],
+  "Wollongong": [
+    {
+      "name": "Wollongong Botanic Garden",
+      "type": "Nature",
+      "description": "A botanical garden featuring diverse plant collections and themed areas."
+    },
+    {
+      "name": "Nan Tien Temple",
+      "type": "Cultural",
+      "description": "The largest Buddhist temple in the Southern Hemisphere, offering tours and cultural experiences."
+    },
+    {
+      "name": "Sea Cliff Bridge",
+      "type": "Landmark",
+      "description": "A scenic bridge offering spectacular coastal views and walking paths."
+    }
+  ],
+  "Townsville": [
+    {
+      "name": "The Strand",
+      "type": "Landmark",
+      "description": "A popular beachfront promenade with parks, cafes, and views of Magnetic Island."
+    },
+    {
+      "name": "Reef HQ Aquarium",
+      "type": "Aquarium",
+      "description": "The world's largest living coral reef aquarium, showcasing marine life from the Great Barrier Reef."
+    },
+    {
+      "name": "Castle Hill",
+      "type": "Nature",
+      "description": "A granite monolith offering panoramic views of Townsville and the surrounding areas."
+    }
+  ],
+  "Coffs Harbour": [
+    {
+      "name": "Big Banana",
+      "type": "Landmark",
+      "description": "An iconic amusement park with rides, tours, and a giant banana statue."
+    },
+    {
+      "name": "Muttonbird Island",
+      "type": "Nature",
+      "description": "A nature reserve and lookout point with views of the coast and seabird colonies."
+    },
+    {
+      "name": "Coffs Harbour Butterfly House",
+      "type": "Wildlife",
+      "description": "An indoor tropical rainforest featuring hundreds of live Australian butterflies."
+    }
+  ],
+
+  "Alice Springs": [
+    {
+      "name": "Alice Springs Desert Park",
+      "type": "Nature",
+      "description": "A wildlife park showcasing the flora, fauna, and landscapes of Central Australia."
+    },
+    {
+      "name": "Simpsons Gap",
+      "type": "Nature",
+      "description": "A picturesque gap in the West MacDonnell Ranges, known for its striking scenery and wildlife."
+    },
+    {
+      "name": "Royal Flying Doctor Service Museum",
+      "type": "Museum",
+      "description": "A museum dedicated to the history and operations of the Royal Flying Doctor Service."
+    }
+  ],
+  "Ballarat": [
+    {
+      "name": "Sovereign Hill",
+      "type": "Historical",
+      "description": "An open-air museum depicting life during the Gold Rush era."
+    },
+    {
+      "name": "Ballarat Wildlife Park",
+      "type": "Wildlife",
+      "description": "A wildlife park featuring native Australian animals and interactive experiences."
+    },
+    {
+      "name": "Lake Wendouree",
+      "type": "Nature",
+      "description": "A large lake offering recreational activities, walking trails, and the Ballarat Botanical Gardens."
+    }
+  ],
+  "Bendigo": [
+    {
+      "name": "Central Deborah Gold Mine",
+      "type": "Historical",
+      "description": "A historic gold mine offering underground tours and insights into gold mining history."
+    },
+    {
+      "name": "Bendigo Art Gallery",
+      "type": "Cultural",
+      "description": "One of Australia's oldest and largest regional art galleries."
+    },
+    {
+      "name": "Sacred Heart Cathedral",
+      "type": "Landmark",
+      "description": "A stunning Gothic Revival cathedral and one of Australia's largest churches."
+    }
+  ],
+  "Toowoomba": [
+    {
+      "name": "Queens Park",
+      "type": "Nature",
+      "description": "A large park with beautiful gardens, playgrounds, and walking paths."
+    },
+    {
+      "name": "Cobb & Co Museum",
+      "type": "Museum",
+      "description": "A museum dedicated to the history of horse-drawn transportation and heritage trades."
+    },
+    {
+      "name": "Japanese Garden",
+      "type": "Nature",
+      "description": "A serene garden featuring traditional Japanese landscaping and architecture."
+    }
+  ],
+  "Launceston": [
+    {
+      "name": "Cataract Gorge",
+      "type": "Nature",
+      "description": "A river gorge offering walking trails, a swimming pool, and scenic chairlift rides."
+    },
+    {
+      "name": "City Park",
+      "type": "Park",
+      "description": "A historic park featuring gardens, a conservatory, and a Japanese macaque enclosure."
+    },
+    {
+      "name": "Queen Victoria Museum and Art Gallery",
+      "type": "Museum",
+      "description": "One of Australia's largest regional museums, showcasing local history and art."
+    }
+  ],
+  "Mackay": [
+    {
+      "name": "Bluewater Lagoon",
+      "type": "Water Park",
+      "description": "A free-entry water park with pools, slides, and a waterfall."
+    },
+    {
+      "name": "Mackay Regional Botanic Gardens",
+      "type": "Nature",
+      "description": "Gardens featuring native Australian plants and walking trails."
+    },
+    {
+      "name": "Harbour Beach",
+      "type": "Beach",
+      "description": "A popular beach for swimming and sunbathing, with nearby cafes and amenities."
+    }
+  ],
+  "Rockhampton": [
+    {
+      "name": "Rockhampton Botanic Gardens",
+      "type": "Nature",
+      "description": "Historic gardens with a wide variety of flora and a small zoo."
+    },
+    {
+      "name": "Mount Archer National Park",
+      "type": "Nature",
+      "description": "A national park offering panoramic views, walking trails, and picnic areas."
+    },
+    {
+      "name": "Capricorn Caves",
+      "type": "Nature",
+      "description": "Limestone caves offering guided tours and adventure caving experiences."
+    }
+  ],
+  "Bunbury": [
+    {
+      "name": "Dolphin Discovery Centre",
+      "type": "Wildlife",
+      "description": "An interactive marine center focused on dolphins and marine conservation."
+    },
+    {
+      "name": "Bunbury Wildlife Park",
+      "type": "Wildlife",
+      "description": "A park featuring native Australian animals and interactive exhibits."
+    },
+    {
+      "name": "Koombana Bay",
+      "type": "Beach",
+      "description": "A bay known for its calm waters, sandy beaches, and frequent dolphin sightings."
+    }
+  ],
+  "Port Macquarie": [
+    {
+      "name": "Koala Hospital",
+      "type": "Wildlife",
+      "description": "A rehabilitation facility for koalas, offering tours and educational programs."
+    },
+    {
+      "name": "Tacking Point Lighthouse",
+      "type": "Landmark",
+      "description": "A historic lighthouse with panoramic coastal views."
+    },
+    {
+      "name": "Sea Acres Rainforest Centre",
+      "type": "Nature",
+      "description": "A nature reserve with a boardwalk through subtropical rainforest."
+    }
+  ],
+  "Orange": [
+    {
+      "name": "Mount Canobolas",
+      "type": "Nature",
+      "description": "A volcanic peak offering hiking trails and scenic views."
+    },
+    {
+      "name": "Orange Botanic Gardens",
+      "type": "Nature",
+      "description": "Gardens featuring native and exotic plants, walking trails, and picnic areas."
+    },
+    {
+      "name": "Lake Canobolas",
+      "type": "Nature",
+      "description": "A lake offering swimming, fishing, and picnic facilities."
+    }
+  ],
+  "Gosford": [
+    {
+      "name": "Australian Reptile Park",
+      "type": "Wildlife",
+      "description": "A wildlife park featuring native reptiles, mammals, and interactive exhibits."
+    },
+    {
+      "name": "Bouddi National Park",
+      "type": "Nature",
+      "description": "A national park with coastal walks, beaches, and camping areas."
+    },
+    {
+      "name": "Brisbane Water National Park",
+      "type": "Nature",
+      "description": "A park known for its Aboriginal rock engravings, walking trails, and scenic lookouts."
+    }
+  ],
+  "Hervey Bay": [
+    {
+      "name": "Whale Watching",
+      "type": "Wildlife",
+      "description": "A popular activity during whale migration season, with various tour operators."
+    },
+    {
+      "name": "Fraser Island",
+      "type": "Nature",
+      "description": "A World Heritage-listed island known for its sand dunes, rainforests, and freshwater lakes."
+    },
+    {
+      "name": "Hervey Bay Historical Village & Museum",
+      "type": "Museum",
+      "description": "A museum showcasing the history and heritage of the Hervey Bay region."
+    }
+  ],
+  "Lismore": [
+    {
+      "name": "Lismore Regional Gallery",
+      "type": "Cultural",
+      "description": "A gallery showcasing contemporary and indigenous art."
+    },
+    {
+      "name": "Nightcap National Park",
+      "type": "Nature",
+      "description": "A park known for its rainforests, waterfalls, and walking trails."
+    },
+    {
+      "name": "Rocky Creek Dam",
+      "type": "Nature",
+      "description": "A dam offering recreational activities such as picnicking, hiking, and birdwatching."
+    }
+  ],
+  "Gladstone": [
+    {
+      "name": "Heron Island",
+      "type": "Nature",
+      "description": "A coral cay on the Great Barrier Reef known for its snorkeling and diving opportunities."
+    },
+    {
+      "name": "Tondoon Botanic Gardens",
+      "type": "Nature",
+      "description": "Gardens featuring native plant species, walking trails, and a Japanese tea house."
+    },
+    {
+      "name": "Gladstone Maritime Museum",
+      "type": "Museum",
+      "description": "A museum dedicated to the maritime history of the Gladstone region."
+    }
+  ],
+
+  "Whyalla": [
+    {
+      "name": "Whyalla Maritime Museum",
+      "type": "Museum",
+      "description": "A museum featuring maritime history and the HMAS Whyalla warship."
+    },
+    {
+      "name": "Hummock Hill Lookout",
+      "type": "Landmark",
+      "description": "A lookout offering panoramic views of Whyalla and the Spencer Gulf."
+    },
+    {
+      "name": "Fitzgerald Bay",
+      "type": "Nature",
+      "description": "A bay known for its scenic views, fishing, and camping."
+    }
+  ],
+  "Wodonga": [
+    {
+      "name": "Wodonga Creek Miniature Railway",
+      "type": "Attraction",
+      "description": "A miniature railway offering train rides for families and children."
+    },
+    {
+      "name": "Army Museum Bandiana",
+      "type": "Museum",
+      "description": "A military museum showcasing the history and equipment of the Australian Army."
+    },
+    {
+      "name": "Belvoir Park",
+      "type": "Park",
+      "description": "A park featuring a lake, playgrounds, and picnic areas."
+    }
+  ],
+
+  "Yanchep": [
+    {
+      "name": "Yanchep National Park",
+      "type": "Nature",
+      "description": "A national park offering caves, koala boardwalks, and beautiful picnic spots."
+    },
+    {
+      "name": "Yanchep Lagoon",
+      "type": "Beach",
+      "description": "A popular beach for swimming, snorkeling, and relaxing."
+    },
+    {
+      "name": "Crystal Cave",
+      "type": "Nature",
+      "description": "A guided tour cave featuring stunning limestone formations."
+    }
+  ],
+  "Young": [
+    {
+      "name": "Lambing Flat Chinese Tribute Garden",
+      "type": "Nature",
+      "description": "A garden commemorating the Chinese community's contribution to the area."
+    },
+    {
+      "name": "Young Heritage Walk",
+      "type": "Historical",
+      "description": "A self-guided walk showcasing historical buildings and sites in Young."
+    },
+    {
+      "name": "Young Railway Station",
+      "type": "Historical",
+      "description": "A heritage railway station with historical exhibits and displays."
+    }
+  ],
+  "Albany": [
+    {
+      "name": "Torndirrup National Park",
+      "type": "Nature",
+      "description": "A national park known for its rugged coastal cliffs and natural rock formations."
+    },
+    {
+      "name": "Albany Wind Farm",
+      "type": "Landmark",
+      "description": "A wind farm offering stunning coastal views and walking trails."
+    },
+    {
+      "name": "National Anzac Centre",
+      "type": "Museum",
+      "description": "A museum dedicated to the Anzacs of the First World War."
+    }
+  ],
+
+  "Bowral": [
+    {
+      "name": "Bradman Museum & International Cricket Hall of Fame",
+      "type": "Museum",
+      "description": "A museum dedicated to cricket and Sir Donald Bradman."
+    },
+    {
+      "name": "Corbett Gardens",
+      "type": "Nature",
+      "description": "A public garden known for its vibrant spring tulip displays."
+    },
+    {
+      "name": "Gibbergunyah Reserve",
+      "type": "Nature",
+      "description": "A reserve offering walking trails and scenic bushland."
+    }
+  ],
+  "Broome": [
+    {
+      "name": "Cable Beach",
+      "type": "Beach",
+      "description": "A famous beach known for its white sand and stunning sunsets."
+    },
+    {
+      "name": "Gantheaume Point",
+      "type": "Nature",
+      "description": "A coastal area known for its red rock formations and dinosaur footprints."
+    },
+    {
+      "name": "Broome Historical Museum",
+      "type": "Museum",
+      "description": "A museum showcasing the history of Broome and its pearling industry."
+    }
+  ],
+  "Busselton": [
+    {
+      "name": "Busselton Jetty",
+      "type": "Landmark",
+      "description": "The longest timber-piled jetty in the southern hemisphere, with an underwater observatory."
+    },
+    {
+      "name": "Ngilgi Cave",
+      "type": "Nature",
+      "description": "A show cave known for its stunning stalactite and stalagmite formations."
+    },
+    {
+      "name": "Geographe Bay",
+      "type": "Nature",
+      "description": "A beautiful bay ideal for swimming, snorkeling, and water activities."
+    }
+  ],
+  "Carnarvon": [
+    {
+      "name": "Carnarvon Space and Technology Museum",
+      "type": "Museum",
+      "description": "A museum celebrating the history of space technology and its local connections."
+    },
+    {
+      "name": "Quobba Blowholes",
+      "type": "Nature",
+      "description": "Natural blowholes that shoot water high into the air along the rugged coast."
+    },
+    {
+      "name": "One Mile Jetty",
+      "type": "Landmark",
+      "description": "A historic jetty offering fishing and scenic views."
+    }
+  ],
+  "Ceduna": [
+    {
+      "name": "Ceduna Arts and Culture Centre",
+      "type": "Cultural",
+      "description": "A center showcasing local Indigenous art and culture."
+    },
+    {
+      "name": "Murphy's Haystacks",
+      "type": "Nature",
+      "description": "Unique granite rock formations located on a hilltop."
+    },
+    {
+      "name": "Point Labatt",
+      "type": "Nature",
+      "description": "A scenic lookout to view a colony of Australian sea lions."
+    }
+  ],
+
+  "Port Lincoln": [
+    {
+      "name": "Lincoln National Park",
+      "type": "Nature",
+      "description": "A national park offering coastal scenery, hiking, and wildlife viewing."
+    },
+    {
+      "name": "Mikkira Station",
+      "type": "Nature",
+      "description": "A historic homestead and nature reserve known for its koala population."
+    },
+    {
+      "name": "Axel Stenross Maritime Museum",
+      "type": "Museum",
+      "description": "A museum showcasing the maritime history of Port Lincoln."
+    }
+  ],
+  "Port Pirie": [
+    {
+      "name": "Port Pirie Regional Tourism and Arts Centre",
+      "type": "Cultural",
+      "description": "A center featuring local art exhibitions and visitor information."
+    },
+    {
+      "name": "Solomontown Beach",
+      "type": "Beach",
+      "description": "A popular beach for swimming, picnicking, and relaxing."
+    },
+    {
+      "name": "Northern Festival Centre",
+      "type": "Cultural",
+      "description": "A venue for performing arts, including theater, music, and dance."
+    }
+  ],
+  "Queanbeyan": [
+    {
+      "name": "Molonglo Gorge Nature Reserve",
+      "type": "Nature",
+      "description": "A scenic reserve offering hiking trails and picnic areas."
+    },
+    {
+      "name": "Queanbeyan Art Gallery",
+      "type": "Cultural",
+      "description": "A gallery showcasing local and regional artists."
+    },
+    {
+      "name": "Royal Hotel Queanbeyan",
+      "type": "Historical",
+      "description": "A historic hotel and pub offering accommodation and dining."
+    }
+  ],
+  "Sale": [
+    {
+      "name": "Gippsland Art Gallery",
+      "type": "Cultural",
+      "description": "A gallery featuring contemporary and traditional artworks."
+    },
+    {
+      "name": "Sale Botanic Gardens",
+      "type": "Nature",
+      "description": "A botanic garden with walking paths, picnic areas, and a variety of plants."
+    },
+    {
+      "name": "Sale Common State Game Refuge",
+      "type": "Nature",
+      "description": "A wetland area offering birdwatching, walking trails, and wildlife viewing."
+    }
+  ],
+  "Seymour": [
+    {
+      "name": "Vietnam Veterans Commemorative Walk",
+      "type": "Historical",
+      "description": "A memorial walk dedicated to Australian Vietnam War veterans."
+    },
+    {
+      "name": "Old Post Office Gallery",
+      "type": "Cultural",
+      "description": "A gallery located in a historic building, showcasing local art."
+    },
+    {
+      "name": "Light Horse Memorial Park",
+      "type": "Park",
+      "description": "A park honoring the Australian Light Horse Brigade, with trails and picnic areas."
+    }
+  ],
+  "Shepparton": [
+    {
+      "name": "Shepparton Art Museum",
+      "type": "Cultural",
+      "description": "A museum featuring Australian art and ceramics."
+    },
+    {
+      "name": "Aquamoves",
+      "type": "Recreation",
+      "description": "A water park offering pools, water slides, and fitness facilities."
+    },
+    {
+      "name": "Victoria Park Lake",
+      "type": "Nature",
+      "description": "A scenic lake with walking paths, picnic spots, and boating."
+    }
+  ],
+  "Singleton": [
+    {
+      "name": "Singleton Heritage Walk",
+      "type": "Historical",
+      "description": "A self-guided walk showcasing historic buildings and sites."
+    },
+    {
+      "name": "Australian Army Infantry Museum",
+      "type": "Museum",
+      "description": "A museum dedicated to the history of the Australian infantry."
+    },
+    {
+      "name": "Lake St Clair",
+      "type": "Nature",
+      "description": "A lake offering fishing, boating, and camping opportunities."
+    }
+  ],
+  "Tamworth": [
+    {
+      "name": "Australian Country Music Hall of Fame",
+      "type": "Museum",
+      "description": "A museum celebrating the history of country music in Australia."
+    },
+    {
+      "name": "Oxley Scenic Lookout",
+      "type": "Landmark",
+      "description": "A lookout offering panoramic views of Tamworth and its surroundings."
+    },
+    {
+      "name": "Marsupial Park",
+      "type": "Wildlife",
+      "description": "A wildlife park featuring native Australian animals and a playground."
+    }
+  ],
+  "Tennant Creek": [
+    {
+      "name": "Nyinkka Nyunyu Art and Culture Centre",
+      "type": "Cultural",
+      "description": "A center showcasing Aboriginal art and culture."
+    },
+    {
+      "name": "Battery Hill Mining Centre",
+      "type": "Historical",
+      "description": "A museum and tour center focusing on the region's gold mining history."
+    },
+    {
+      "name": "Lake Mary Ann",
+      "type": "Nature",
+      "description": "A man-made lake offering swimming, picnicking, and birdwatching."
+    }
+  ],
+  "Traralgon": [
+    {
+      "name": "Traralgon Railway Reservoir Conservation Reserve",
+      "type": "Nature",
+      "description": "A reserve offering walking trails and birdwatching opportunities."
+    },
+    {
+      "name": "Latrobe Regional Gallery",
+      "type": "Cultural",
+      "description": "A gallery featuring contemporary art exhibitions and collections."
+    },
+    {
+      "name": "Victory Park",
+      "type": "Park",
+      "description": "A park with playgrounds, walking paths, and picnic areas."
+    }
+  ],
+  "Victor Harbor": [
+    {
+      "name": "Granite Island",
+      "type": "Nature",
+      "description": "An island known for its walking trails, penguin colony, and scenic views."
+    },
+    {
+      "name": "Victor Harbor Horse Drawn Tram",
+      "type": "Attraction",
+      "description": "A historic tramway offering horse-drawn tram rides to Granite Island."
+    },
+    {
+      "name": "South Australian Whale Centre",
+      "type": "Museum",
+      "description": "A museum dedicated to the history and conservation of whales."
+    }
+  ],
+  "Wagga Wagga": [
+    {
+      "name": "Wagga Wagga Botanic Gardens",
+      "type": "Nature",
+      "description": "A large botanic garden featuring themed gardens, a zoo, and walking trails."
+    },
+    {
+      "name": "National Art Glass Gallery",
+      "type": "Museum",
+      "description": "A gallery showcasing contemporary glass art from Australia and around the world."
+    },
+    {
+      "name": "Wiradjuri Walking Track",
+      "type": "Nature",
+      "description": "A walking track offering scenic views and cultural sites along the Murrumbidgee River."
+    }
+  ],
+  "Wangaratta": [
+    {
+      "name": "Murray to Mountains Rail Trail",
+      "type": "Nature",
+      "description": "A scenic cycling and walking trail through the wine and gourmet food regions."
+    },
+    {
+      "name": "Wangaratta Art Gallery",
+      "type": "Cultural",
+      "description": "A gallery featuring contemporary art exhibitions and collections."
+    },
+    {
+      "name": "Kaluna Park",
+      "type": "Nature",
+      "description": "A nature reserve offering walking trails and birdwatching opportunities."
+    }
+  ],
+  "Warragul": [
+    {
+      "name": "West Gippsland Arts Centre",
+      "type": "Cultural",
+      "description": "A performing arts center hosting theater, music, and dance performances."
+    },
+    {
+      "name": "Warragul Farmers Market",
+      "type": "Market",
+      "description": "A monthly market featuring local produce, crafts, and food."
+    },
+    {
+      "name": "Civic Park",
+      "type": "Park",
+      "description": "A central park with gardens, playgrounds, and walking paths."
+    }
+  ],
+  "Warrnambool": [
+    {
+      "name": "Flagstaff Hill Maritime Village",
+      "type": "Historical",
+      "description": "A maritime museum and recreated 19th-century village."
+    },
+    {
+      "name": "Lake Pertobe Adventure Playground",
+      "type": "Recreation",
+      "description": "A large playground with boating, picnicking, and walking trails."
+    },
+    {
+      "name": "Logan's Beach",
+      "type": "Beach",
+      "description": "A beach known for whale watching during the migration season."
+    }
+  ],
+  "Katoomba": [
+    {
+      "name": "Three Sisters",
+      "type": "Landmark",
+      "description": "A famous rock formation in the Blue Mountains offering scenic views and hiking trails."
+    },
+    {
+      "name": "Scenic World",
+      "type": "Attraction",
+      "description": "An attraction featuring cable cars, a scenic railway, and walking paths through the rainforest."
+    },
+    {
+      "name": "Blue Mountains National Park",
+      "type": "Nature",
+      "description": "A national park known for its dramatic scenery, waterfalls, and extensive hiking trails."
+    }
+  ],
+  "Latrobe": [
+    {
+      "name": "Latrobe Regional Gallery",
+      "type": "Cultural",
+      "description": "A gallery showcasing contemporary Australian art and local works."
+    },
+    {
+      "name": "Morwell Centenary Rose Garden",
+      "type": "Nature",
+      "description": "A beautiful garden featuring thousands of roses and landscaped areas."
+    },
+    {
+      "name": "Tyers Park",
+      "type": "Nature",
+      "description": "A park offering hiking trails, picnic spots, and scenic views."
+    }
+  ],
+  "Mount Gambier": [
+    {
+      "name": "Blue Lake",
+      "type": "Nature",
+      "description": "A crater lake known for its vibrant blue color during summer months."
+    },
+    {
+      "name": "Umpherston Sinkhole",
+      "type": "Nature",
+      "description": "A sunken garden in a limestone cave, offering a unique and beautiful landscape."
+    },
+    {
+      "name": "Engelbrecht Cave",
+      "type": "Nature",
+      "description": "A cave system offering guided tours through its chambers and underground lakes."
+    }
+  ],
+  "Mount Isa": [
+    {
+      "name": "Outback at Isa",
+      "type": "Museum",
+      "description": "An interactive museum and visitor center showcasing the history and culture of Mount Isa."
+    },
+    {
+      "name": "Riversleigh Fossil Centre",
+      "type": "Museum",
+      "description": "A center dedicated to the fossils from the Riversleigh World Heritage Area."
+    },
+    {
+      "name": "Lake Moondarra",
+      "type": "Nature",
+      "description": "A man-made lake offering recreational activities such as fishing, boating, and picnicking."
+    }
+  ],
+  "Mudgee": [
+    {
+      "name": "Mudgee Wineries",
+      "type": "Attraction",
+      "description": "A region known for its wineries, offering tastings and tours."
+    },
+    {
+      "name": "The Drip Gorge",
+      "type": "Nature",
+      "description": "A scenic walking trail through a gorge with impressive sandstone cliffs."
+    },
+    {
+      "name": "Glen Willow Regional Sports Stadium",
+      "type": "Sports",
+      "description": "A modern sports facility hosting various events and activities."
+    }
+  ],
+  "Murray Bridge": [
+    {
+      "name": "Monarto Safari Park",
+      "type": "Wildlife",
+      "description": "A large open-range zoo featuring African and Australian animals."
+    },
+    {
+      "name": "Murray Bridge Regional Gallery",
+      "type": "Cultural",
+      "description": "A gallery showcasing local and regional artworks."
+    },
+    {
+      "name": "Sturt Reserve",
+      "type": "Park",
+      "description": "A riverside park offering picnic areas, playgrounds, and walking trails."
+    }
+  ],
+  "Muswellbrook": [
+    {
+      "name": "Hunter Belle Cheese",
+      "type": "Attraction",
+      "description": "A cheese factory offering tours and tastings of locally made cheeses."
+    },
+    {
+      "name": "Muswellbrook Regional Arts Centre",
+      "type": "Cultural",
+      "description": "A gallery featuring contemporary and traditional artworks."
+    },
+    {
+      "name": "Lake Liddell",
+      "type": "Nature",
+      "description": "A lake offering recreational activities such as fishing, boating, and picnicking."
+    }
+  ],
+  "Nowra": [
+    {
+      "name": "Shoalhaven Zoo",
+      "type": "Wildlife",
+      "description": "A zoo featuring native and exotic animals, offering interactive experiences."
+    },
+    {
+      "name": "Fleet Air Arm Museum",
+      "type": "Museum",
+      "description": "A museum dedicated to the history of the Royal Australian Navy's Fleet Air Arm."
+    },
+    {
+      "name": "Ben's Walk",
+      "type": "Nature",
+      "description": "A scenic walking trail along the Shoalhaven River with beautiful views."
+    }
+  ],
+  "Palmerston": [
+    {
+      "name": "Palmerston Water Park",
+      "type": "Attraction",
+      "description": "A family-friendly water park with slides, pools, and picnic areas."
+    },
+    {
+      "name": "Marlows Lagoon Recreation Area",
+      "type": "Park",
+      "description": "A park offering walking trails, playgrounds, and picnic spots."
+    },
+    {
+      "name": "Gateway Shopping Centre",
+      "type": "Shopping",
+      "description": "A major shopping center with a variety of stores, restaurants, and entertainment options."
+    }
+  ],
+  "Parkes": [
+    {
+      "name": "Parkes Observatory",
+      "type": "Science",
+      "description": "A radio telescope observatory offering tours and interactive exhibits."
+    },
+    {
+      "name": "Henry Parkes Centre",
+      "type": "Museum",
+      "description": "A complex housing museums dedicated to local history, motor vehicles, and Elvis Presley."
+    },
+    {
+      "name": "Goobang National Park",
+      "type": "Nature",
+      "description": "A national park offering hiking trails, wildlife viewing, and camping."
+    }
+  ],
+  "Port Augusta": [
+    {
+      "name": "Australian Arid Lands Botanic Garden",
+      "type": "Nature",
+      "description": "A botanic garden showcasing arid zone ecosystems and plants."
+    },
+    {
+      "name": "Wadlata Outback Centre",
+      "type": "Museum",
+      "description": "An interactive museum providing insights into the history and culture of the Outback."
+    },
+    {
+      "name": "Matthew Flinders Red Cliff Lookout",
+      "type": "Landmark",
+      "description": "A lookout offering panoramic views of the Spencer Gulf and surrounding landscapes."
+    }
+  ],
+  "Gympie": [
+    {
+      "name": "Gympie Gold Mining and Historical Museum",
+      "type": "Historical",
+      "description": "A museum dedicated to the region's gold mining history."
+    },
+    {
+      "name": "Mary Valley Rattler",
+      "type": "Scenic Ride",
+      "description": "A heritage train offering scenic rides through the Mary Valley."
+    },
+    {
+      "name": "WoodWorks Museum and Interpretive Centre",
+      "type": "Museum",
+      "description": "A museum showcasing the history of the timber industry and woodworking."
+    }
+  ],
+  "Horsham": [
+    {
+      "name": "Horsham Regional Art Gallery",
+      "type": "Cultural",
+      "description": "A gallery featuring contemporary and historical Australian art."
+    },
+    {
+      "name": "Wimmera River",
+      "type": "Nature",
+      "description": "A river offering walking paths, fishing, and picnic spots."
+    },
+    {
+      "name": "Sawyer Park",
+      "type": "Park",
+      "description": "A riverside park with playgrounds, BBQ areas, and walking trails."
+    }
+  ],
+  "Kalgoorlie": [
+    {
+      "name": "Super Pit",
+      "type": "Landmark",
+      "description": "One of the world's largest open-cut gold mines, offering tours and lookouts."
+    },
+    {
+      "name": "Museum of the Goldfields",
+      "type": "Museum",
+      "description": "A museum showcasing the rich history of the Goldfields region."
+    },
+    {
+      "name": "Hannans North Tourist Mine",
+      "type": "Historical",
+      "description": "An interactive mining museum where visitors can pan for gold and explore historic equipment."
+    }
+  ],
+  "Katherine": [
+    {
+      "name": "Katherine Gorge",
+      "type": "Nature",
+      "description": "A stunning gorge system in Nitmiluk National Park, offering boat tours and hiking."
+    },
+    {
+      "name": "Cutta Cutta Caves",
+      "type": "Nature",
+      "description": "A limestone cave system with guided tours showcasing its formations and wildlife."
+    },
+    {
+      "name": "Top Didj Cultural Experience",
+      "type": "Cultural",
+      "description": "An interactive cultural experience with local Indigenous artists."
+    }
+  ],
+  "Albury": [
+    {
+      "name": "Albury Botanic Gardens",
+      "type": "Nature",
+      "description": "A beautiful garden featuring a wide variety of plants and a children's garden."
+    },
+    {
+      "name": "Murray River",
+      "type": "Nature",
+      "description": "A major river offering various water activities and scenic views."
+    },
+    {
+      "name": "Monument Hill War Memorial",
+      "type": "Historical",
+      "description": "A war memorial offering panoramic views of Albury and its surroundings."
+    }
+  ],
+  "Armidale": [
+    {
+      "name": "New England Regional Art Museum",
+      "type": "Museum",
+      "description": "A museum showcasing Australian art, including the Howard Hinton and Chandler Coventry collections."
+    },
+    {
+      "name": "Oxley Wild Rivers National Park",
+      "type": "Nature",
+      "description": "A national park known for its dramatic gorges, waterfalls, and extensive walking trails."
+    },
+    {
+      "name": "Saumarez Homestead",
+      "type": "Historical",
+      "description": "A historic country homestead with gardens, offering tours and events."
+    }
+  ],
+  "Bathurst": [
+    {
+      "name": "Mount Panorama",
+      "type": "Landmark",
+      "description": "A world-famous motor racing circuit and scenic drive."
+    },
+    {
+      "name": "Australian Fossil and Mineral Museum",
+      "type": "Museum",
+      "description": "A museum housing a collection of fossils and minerals, including a T. rex skeleton."
+    },
+    {
+      "name": "Chifley Home",
+      "type": "Historical",
+      "description": "The preserved home of former Prime Minister Ben Chifley, offering guided tours."
+    }
+  ],
+  "Broken Hill": [
+    {
+      "name": "Living Desert Sculptures",
+      "type": "Landmark",
+      "description": "A collection of sandstone sculptures set in the beautiful desert landscape."
+    },
+    {
+      "name": "Pro Hart Gallery",
+      "type": "Museum",
+      "description": "A gallery dedicated to the works of the famous Australian artist Pro Hart."
+    },
+    {
+      "name": "Royal Flying Doctor Service",
+      "type": "Museum",
+      "description": "An interactive museum showcasing the history and operations of the RFDS."
+    }
+  ],
+  "Bundaberg": [
+    {
+      "name": "Mon Repos",
+      "type": "Nature",
+      "description": "A conservation park known for its sea turtle rookery and guided tours."
+    },
+    {
+      "name": "Bundaberg Rum Distillery",
+      "type": "Factory Tour",
+      "description": "A distillery offering tours and tastings of the famous Bundaberg Rum."
+    },
+    {
+      "name": "Bundaberg Botanic Gardens",
+      "type": "Nature",
+      "description": "A garden featuring a variety of plant collections, walking paths, and a historical museum."
+    }
+  ],
+  "Burnie": [
+    {
+      "name": "Emu Valley Rhododendron Garden",
+      "type": "Nature",
+      "description": "A garden showcasing a wide variety of rhododendrons and other plants."
+    },
+    {
+      "name": "Makers' Workshop",
+      "type": "Cultural",
+      "description": "A cultural center celebrating local artisans and providing interactive experiences."
+    },
+    {
+      "name": "Fern Glade Reserve",
+      "type": "Nature",
+      "description": "A nature reserve known for its platypus sightings and walking trails."
+    }
+  ],
+  "Campbelltown": [
+    {
+      "name": "Australian Botanic Garden Mount Annan",
+      "type": "Nature",
+      "description": "A large botanic garden featuring native Australian plants and walking trails."
+    },
+    {
+      "name": "Campbelltown Arts Centre",
+      "type": "Cultural",
+      "description": "A contemporary arts center offering exhibitions, performances, and workshops."
+    },
+    {
+      "name": "Japanese Gardens and Teahouse",
+      "type": "Cultural",
+      "description": "A serene garden and teahouse offering a taste of Japanese culture."
+    }
+  ],
+  "Charters Towers": [
+    {
+      "name": "The Miner's Cottage",
+      "type": "Historical",
+      "description": "A historical museum showcasing Charters Towers' gold mining history."
+    },
+    {
+      "name": "Towers Hill",
+      "type": "Landmark",
+      "description": "A hill offering panoramic views and a night-time ghost tour."
+    },
+    {
+      "name": "Venus Battery",
+      "type": "Historical",
+      "description": "A preserved gold battery providing tours and insights into gold extraction processes."
+    }
+  ],
+  "Devonport": [
+    {
+      "name": "Spirit of Tasmania",
+      "type": "Landmark",
+      "description": "A ferry service offering scenic crossings between Tasmania and mainland Australia."
+    },
+    {
+      "name": "Don River Railway",
+      "type": "Museum",
+      "description": "A heritage railway offering train rides and a museum of vintage locomotives."
+    },
+    {
+      "name": "Bass Strait Maritime Centre",
+      "type": "Museum",
+      "description": "A museum showcasing maritime history and artifacts from the Bass Strait region."
+    }
+  ],
+  "Dubbo": [
+    {
+      "name": "Taronga Western Plains Zoo",
+      "type": "Wildlife",
+      "description": "An open-range zoo home to a variety of exotic and native animals."
+    },
+    {
+      "name": "Old Dubbo Gaol",
+      "type": "Historical",
+      "description": "A historic gaol offering tours and exhibits on prison life in the 19th century."
+    },
+    {
+      "name": "Dubbo Regional Botanic Garden",
+      "type": "Nature",
+      "description": "A botanic garden featuring themed areas and native plant collections."
+    }
+  ],
+  "Emerald": [
+    {
+      "name": "Fairbairn Dam",
+      "type": "Nature",
+      "description": "A large dam offering recreational activities such as fishing and boating."
+    },
+    {
+      "name": "Botanic Gardens",
+      "type": "Nature",
+      "description": "A garden featuring a variety of plant species and walking trails."
+    },
+    {
+      "name": "Emerald Art Gallery",
+      "type": "Cultural",
+      "description": "A gallery showcasing works by local and regional artists."
+    }
+  ],
+  "Esperance": [
+    {
+      "name": "Lucky Bay",
+      "type": "Beach",
+      "description": "A beach known for its stunning white sand and friendly kangaroos."
+    },
+    {
+      "name": "Cape Le Grand National Park",
+      "type": "Nature",
+      "description": "A national park offering spectacular coastal scenery, hiking, and wildlife."
+    },
+    {
+      "name": "Esperance Museum",
+      "type": "Museum",
+      "description": "A museum showcasing local history, including artifacts from the Skylab space station."
+    }
+  ],
+  "Geraldton": [
+    {
+      "name": "HMAS Sydney II Memorial",
+      "type": "Landmark",
+      "description": "A memorial commemorating the sailors who lost their lives on HMAS Sydney II."
+    },
+    {
+      "name": "Museum of Geraldton",
+      "type": "Museum",
+      "description": "A museum featuring exhibits on the region's maritime history and Aboriginal culture."
+    },
+    {
+      "name": "Geraldton Foreshore",
+      "type": "Landmark",
+      "description": "A vibrant waterfront area with parks, cafes, and recreational facilities."
+    }
+  ],
+  "Goulburn": [
+    {
+      "name": "Big Merino",
+      "type": "Landmark",
+      "description": "A giant statue of a merino ram, symbolizing the region's wool industry."
+    },
+    {
+      "name": "Belmore Park",
+      "type": "Park",
+      "description": "A central park with gardens, playgrounds, and historical monuments."
+    },
+    {
+      "name": "Rocky Hill War Memorial and Museum",
+      "type": "Historical",
+      "description": "A war memorial and museum offering panoramic views and military exhibits."
+    }
+  ],
+  "Griffith": [
+    {
+      "name": "Hermit's Cave",
+      "type": "Historical",
+      "description": "A historic cave and lookout with panoramic views over Griffith."
+    },
+    {
+      "name": "Griffith Regional Art Gallery",
+      "type": "Cultural",
+      "description": "A gallery featuring contemporary and traditional artworks."
+    },
+    {
+      "name": "Pioneer Park Museum",
+      "type": "Historical",
+      "description": "An open-air museum showcasing the history and heritage of the region."
+    }
+  ]
+}

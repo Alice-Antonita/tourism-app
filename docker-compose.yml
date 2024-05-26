@@ -1,6 +1,16 @@
-version: "3"
+version: '3.8'
 
 services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - '${DB_PORT}:${DB_PORT}'
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - tourism_net
+
   next-app:
     container_name: tourism-recommendations
     build:
@@ -10,13 +20,22 @@ services:
         ENV_VARIABLE: ${ENV_VARIABLE}
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
         PORT: ${PORT}
+        NEXT_PUBLIC_MONGODB_URI: mongodb://mongo:27017
+    environment:
+      NEXT_PUBLIC_MONGODB_URI: mongodb://mongo:27017
     restart: always
     ports:
-      - "${PORT}:${PORT}"
+      - '${PORT}:${PORT}'
     volumes:
       - .env:/.env
+      - .env.local:/.env.local
     networks:
       - tourism_net
+    depends_on:
+      - mongo
+
+volumes:
+  mongo-data:
 
 # Define a network, which allows containers to communicate
 # with each other, by using their container name as a hostname

@@ -1,13 +1,7 @@
-"use server";
-
-import Home from "@src/features/home";
+import Home from '@src/features/home';
 
 const HomePage = () => {
-   return (
-     <div>
-       <Home />
-     </div>
-   );
+  return <Home />;
 };
 
 export default HomePage;

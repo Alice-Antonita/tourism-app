@@ -1,11 +1,9 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import { PlaceRecommedations } from '@src/features/recommendations';
 
 const PlaceDetailsPage = ({ params }: { params: { place: string } }) => {
-  const { push } = useRouter();
-  console.log(params.place);
-  return <div onClick={() => push('/home')}>Place Details page</div>;
+  return <PlaceRecommedations place={params.place} />;
 };
 
 export default PlaceDetailsPage;
