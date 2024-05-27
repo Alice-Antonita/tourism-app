@@ -21,11 +21,15 @@ services:
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
         PORT: ${PORT}
         NEXT_PUBLIC_MONGODB_URI: mongodb://mongo:27017
+        NEXT_PUBLIC_USP_KEY: ${NEXT_PUBLIC_USP_KEY}
     environment:
       NEXT_PUBLIC_MONGODB_URI: mongodb://mongo:27017
     restart: always
     ports:
       - '${PORT}:${PORT}'
+    env_file:
+      - .env
+      - .env.local
     volumes:
       - .env:/.env
       - .env.local:/.env.local

@@ -2,6 +2,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
 import TopNavBar from '@src/components/Navbar';
 import { AppContextProvider } from '@src/context';
+import { EnvProvider } from '@src/env/provider';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import theme from '../theme';
@@ -22,13 +23,15 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className} style={{ margin: 0 }}>
-        <AppRouterCacheProvider options={{ key: 'css' }}>
-          <ThemeProvider theme={theme}>
-            <AppContextProvider>
-              <TopNavBar>{children}</TopNavBar>
-            </AppContextProvider>
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+        <EnvProvider>
+          <AppRouterCacheProvider options={{ key: 'css' }}>
+            <ThemeProvider theme={theme}>
+              <AppContextProvider>
+                <TopNavBar>{children}</TopNavBar>
+              </AppContextProvider>
+            </ThemeProvider>
+          </AppRouterCacheProvider>
+        </EnvProvider>
       </body>
     </html>
   );

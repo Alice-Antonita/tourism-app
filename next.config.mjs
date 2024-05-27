@@ -5,7 +5,7 @@ const nextConfig = {
   output: 'standalone',
 
   images: {
-    domains: ['source.unsplash.com']
+    domains: ['source.unsplash.com', 'api.unsplash.com']
   },
   compiler: {
     removeConsole: { exclude: ['error'] }
