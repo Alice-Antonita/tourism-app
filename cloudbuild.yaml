@@ -1,0 +1,13 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/sit737-24t1-raja-e6134ca/tourism-repo/tourism-app-next-app:1.1.1', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/sit737-24t1-raja-e6134ca/tourism-repo/tourism-app-next-app:1.1.1']
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args: ['apply', '-f', 'configmap.yaml']
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args: ['apply', '-f', 'deployment.yaml']
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args: ['apply', '-f', 'service.yaml']
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args: ['apply', '-f', 'networkpolicy.yaml']

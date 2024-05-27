@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: next-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: next-app
+  template:
+    metadata:
+      labels:
+        app: next-app
+    spec:
+      containers:
+      - name: next-app
+        image: us-central1-docker.pkg.dev/sit737-24t1-raja-e6134ca/tourism-repo/tourism-app-next-app:1.1.1
+        ports:
+        - containerPort: 3000
+        env:
+        - name: ENV_VARIABLE
+          value: ${ENV_VARIABLE}
+        - name: NEXT_PUBLIC_ENV_VARIABLE
+          value: ${NEXT_PUBLIC_ENV_VARIABLE}
+        - name: NEXT_PUBLIC_MONGODB_URI
+          value: "mongodb://mongo:27017"
+        - name: JWT_SECRET
+          value: "asdasdas123412312312"
+        - name: NEXT_PUBLIC_USP_KEY
+          value: mr3L49CVj5Ws8SMTdtvMEDVvK8C308lCJoKa5S3se8M
+
