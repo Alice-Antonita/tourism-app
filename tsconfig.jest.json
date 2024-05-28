@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+    // Ensure this matches the JSX handling in your main tsconfig
+  },
+  "include": [
+    "next-env.d.ts",
+    // Include Next.js types
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.setup.ts"
+  ],
+  "exclude": ["node_modules"]
+}
