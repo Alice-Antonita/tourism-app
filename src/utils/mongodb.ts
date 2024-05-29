@@ -1,5 +1,7 @@
 import { MongoClient } from 'mongodb';
 
+// (process.env.MONGODB_SERVICE_HOST &&
+// 'mongodb://' + process.env.MONGODB_SERVICE_HOST + ':' + process.env.MONGODB_SERVICE_PORT) ||
 const uri = process.env.NEXT_PUBLIC_MONGODB_URI || '';
 
 let client: MongoClient;

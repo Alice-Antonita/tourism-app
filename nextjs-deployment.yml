@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nextjs
+spec:
+  selector:
+    matchLabels:
+      app: nextjs
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: nextjs
+    spec:
+      containers:
+        - name: nextjs
+          image: localhost:5005/tourism-recommendations
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NEXT_PUBLIC_MONGODB_URI
+              value: 'mongodb://mongo:27018'
+            - name: NEXT_PUBLIC_USP_KEY
+              value: 'mr3L49CVj5Ws8SMTdtvMEDVvK8C308lCJoKa5S3se8M'
+          volumeMounts:
+            - name: env-file
+              mountPath: /env
+              subPath: .env
+      volumes:
+        - name: env-file
+          configMap:
+            name: env-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nextjs
+spec:
+  selector:
+    app: nextjs
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3003
+      nodePort: 30080
+  type: NodePort
+  # type: LoadBalancer
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  .env: |
+    # Add the contents of your .env file here
+    ENV_VARIABLE=prod
+    NEXT_PUBLIC_ENV_VARIABLE=prod
+    PORT=3003
+    NEXT_PUBLIC_USP_KEY=mr3L49CVj5Ws8SMTdtvMEDVvK8C308lCJoKa5S3se8M

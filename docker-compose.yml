@@ -13,6 +13,7 @@ services:
 
   next-app:
     container_name: tourism-recommendations
+    image: localhost:5005/tourism-recommendations
     build:
       context: .
       dockerfile: Dockerfile
@@ -20,19 +21,15 @@ services:
         ENV_VARIABLE: ${ENV_VARIABLE}
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
         PORT: ${PORT}
-        NEXT_PUBLIC_MONGODB_URI: mongodb://mongo:27017
+        NEXT_PUBLIC_MONGODB_URI: ${NEXT_PUBLIC_MONGODB_URI}
         NEXT_PUBLIC_USP_KEY: ${NEXT_PUBLIC_USP_KEY}
-    environment:
-      NEXT_PUBLIC_MONGODB_URI: mongodb://mongo:27017
     restart: always
     ports:
       - '${PORT}:${PORT}'
     env_file:
       - .env
-      - .env.local
     volumes:
       - .env:/.env
-      - .env.local:/.env.local
     networks:
       - tourism_net
     depends_on:
