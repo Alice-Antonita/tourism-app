@@ -1,15 +1,18 @@
 pipeline {
     agent any
 
+    environment {     
+    DOCKERHUB_CREDENTIALS= credentials('dockerhubcredentials')     
+    } 
+    
     stages {
-        stage('Build') {
-            steps {
-                echo "Building Docker image"
-                script {
-                    sh "docker compose build"
-                }
-            }
-        }
+        stage('Build') {         
+      steps{
+           echo "Building Docker image"
+	       sh 'sudo docker compose build'           
+           echo 'Build Image Completed'                
+      }           
+    }
         stage('Unit Tests') {
             steps {
                 echo "Run tests using Jest"
