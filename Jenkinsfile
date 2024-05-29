@@ -24,9 +24,21 @@ pipeline {
             }
         }
 
+        stage('Docker Build') {
+            steps {
+                sh 'docker-compose build'
+            }
+        }
+
         stage('Test') {
             steps {
                 sh 'npm run test'
+            }
+        }
+
+        stage('Docker push') {
+            steps {
+                sh 'docker-compose push'
             }
         }
 
