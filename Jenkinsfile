@@ -1,8 +1,13 @@
 pipeline {
     agent any
 
+    environment {
+        PATH = "/usr/local/bin:$PATH"
+    }
+
     tools {
         nodejs 'node-js'
+        docker 'docker'
     }
 
     stages {
@@ -26,6 +31,9 @@ pipeline {
 
         stage('Docker Build') {
             steps {
+                sh 'env'
+                sh 'which docker-compose'
+                sh 'echo $PATH'
                 sh '/usr/local/bin/docker-compose build'
             }
         }
