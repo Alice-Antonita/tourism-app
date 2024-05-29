@@ -26,7 +26,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker-compose build'
+                sh '/usr/local/bin/docker-compose build'
             }
         }
 
@@ -38,7 +38,7 @@ pipeline {
 
         stage('Docker push') {
             steps {
-                sh 'docker-compose push'
+                sh '/usr/local/bin/docker-compose push'
             }
         }
 
