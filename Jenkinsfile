@@ -29,33 +29,17 @@ pipeline {
             }
         }
 
-        stage('Docker Build') {
-            steps {
-                sh 'env'
-                // sh 'which docker-compose'
-                sh 'echo $PATH'
-                sh '/usr/local/bin/docker-compose build'
-            }
-        }
-
         stage('Test') {
             steps {
                 sh 'npm run test'
             }
         }
 
-        stage('Docker push') {
-            steps {
-                sh '/usr/local/bin/docker-compose push'
-            }
-        }
-
         stage('Deploy') {
             steps {
-                echo 'Deplying....'
-                // Add your deployment script here
-                // For example, to deploy to a server via SSH:
-                // sh 'scp -r build/ user@your-server:/path/to/deployment'
+                echo 'Deploying....'
+                // deployment script here
+                echo 'Deployed!'
             }
         }
     }
