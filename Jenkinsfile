@@ -1,14 +1,11 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'node'
-    }
 
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/your-nextjs-project.git', branch: 'main'
+                git url: 'https://github.com/Alice-Antonita/tourism-app.git', branch: 'tests'
             }
         }
 
